@@ -40,6 +40,135 @@ const App = () => {
         <Text style={style.defaultText}>
           Cursando desenvolvimento de sistemas.
         </Text>
+
+        <View style={style.ArtBox}>
+          <View style={style.containerRow}>
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+          </View>
+
+          <View style={style.containerRow}>
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+          </View>
+
+          <View style={style.containerRow}>
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+          </View>
+
+          <View style={style.containerRow}>
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+          </View>
+
+          <View style={style.containerRow}>
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+          </View>
+
+          <View style={style.containerRow}>
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+          </View>
+
+          <View style={style.containerRow}>
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxDarkPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+          </View>
+          <View style={style.containerRow}>
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+            <View style={style.boxPurple} />
+          </View>
+        </View>
         <Pressable onPress={handlePressGoToGithub}>
           <View style={style.button}>
             <Text style={style.buttonText}>Open in Github</Text>
@@ -66,7 +195,7 @@ const style = StyleSheet.create({
     height: 100,
     width: 100,
     borderRadius: 200,
-    borderColor: 'purple',
+    borderColor: 'red',
     borderWidth: 5,
     margin: 5,
   },
@@ -82,7 +211,7 @@ const style = StyleSheet.create({
     fontSize: 18,
   },
   button: {
-    backgroundColor: 'purple',
+    backgroundColor: 'red',
     borderRadius: 10,
     padding: 15,
     marginTop: 15,
@@ -90,5 +219,25 @@ const style = StyleSheet.create({
   buttonText: {
     color: 'white',
     fontWeight: 'bold',
+  },
+  ArtBox: {
+    marginTop: 5,
+  },
+  containerRow: {
+    flexDirection: 'row',
+  },
+  boxDarkPurple: {
+    backgroundColor: 'red',
+    width: 15,
+    height: 15,
+    borderRadius: 7.5,
+    margin: 1,
+  },
+  boxPurple: {
+    backgroundColor: '#404040',
+    width: 15,
+    height: 15,
+    borderRadius: 7.5,
+    margin: 1,
   },
 });
